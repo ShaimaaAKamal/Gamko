@@ -1,0 +1,50 @@
+:root{
+    --siteColor:#E75E8C;
+}
+
+.bg-full-body{
+    background-color:#1F2122; 
+}
+
+.border-fbody{
+    border-right:none;
+}
+.bg-fbody{
+    background-color: #27292A;
+}
+.text-fbody{
+    color:#757575;
+}
+
+.fs-7{
+    font-size:0.8rem;
+}
+
+.text-site{
+    color:var(--siteColor);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:var(--siteColor);   
+}
+
+.navbar-nav li:hover a{
+    color:var(--siteColor);  
+}
+
+.bg-w{
+    background-color: #fff !important;
+}
+
+
+
+
+@media screen and (min-width:992px){
+    .border-fbody{
+        border-right:1px solid #27292A
+    } 
+    .bg-w{
+        background-color: transparent !important;
+    }
+    
+}
