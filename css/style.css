@@ -55,6 +55,10 @@
     background-color: #fff !important;
 }
 
+.fs-9{
+    font-size:.9rem
+}
+
 .rounded-medium{
     border-radius: 30px;
 }
@@ -122,6 +126,12 @@
     opacity:1 !important;
 }
 
+/* popular live streams */
+ 
+.videoPlay{
+    height:40vh;
+}
+
 @media screen and (min-width:576px) {
     .h6size{
         font-size:1rem
@@ -141,6 +151,10 @@
 
     .home-caption{
         width:50%;
+    }
+
+    .videoPlay{
+        height:100%;
     }
     
 }
