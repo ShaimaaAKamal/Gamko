@@ -15,7 +15,9 @@
 .text-fbody{
     color:#757575;
 }
-
+.bg-popular{
+    background-color: #1F2022;
+}
 .fs-7{
     font-size:0.8rem;
 }
@@ -60,9 +62,12 @@
     width:75%;
 }
 
+/* popular Section */
+.popularButton{
+    transform: translateX(-50%);
+}
 
-
-
+/* popular Section */
 
 @media screen and (min-width:992px){
 
