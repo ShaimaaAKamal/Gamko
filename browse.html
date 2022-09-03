@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gameko</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="bg-full-body">
+        <nav class="navbar navbar-expand-lg py-sm-3 bg-w position-absolute w-100">
+            <div class="container-lg py-sm-1 px-sm-5 pg-lg-0 ">
+              <a class="navbar-brand pe-lg-3 border-fbody" href="#Home"><img src="images/logo.png" class="w-75" alt="Site Logo"></a>
+
+              <form class="d-flex d-sm-none d-lg-block" role="search" >
+                <input class="form-control me-2 ms-lg-4 bg-fbody border-0 rounded-pill w-100 fs-7" type="search" placeholder="&#x1F50D; Type Something" aria-label="Search">
+              </form>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-site fs-3"></i>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item p-1">
+                    <a class="nav-link active  fs-7" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item p-1">
+                    <a class="nav-link text-fbody fs-7" href="browse.html">Browse</a>
+                  </li>
+                  <li class="nav-item p-1">
+                    <a class="nav-link text-fbody fs-7" href="details.html">Details</a>
+                  </li>
+                  <li class="nav-item p-1">
+                    <a class="nav-link text-fbody fs-7" href="streams.html">Streams</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <p class="d-flex align-items-center rounded-pill bg-fbody py-1 px-2 justify-content-between">
+                     <a class="nav-link text-fbody fs-7" href="profile.html">Profile</a>
+                    <img src="images/profile-header.jpg" alt="profile Header" class="rounded-circle ">
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="parent text-white m-3 m-sm-0">
+         <div class="container  bg-fbody py-5 px-sm-3 px-md-5  rounded-medium">
+            <div class="row align-items-stretch">
+                <div class="col-lg-8">
+                    <section class="Popular bg-popular rounded-medium p-4 position-relative mb-5">
+                        <div class="container-lg">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class=" fw-bolder ps-2"><span class="text-capitalize text-decoration-underline">featured</span><span class="text-site text-capitalize"> games</span></h4>
+                                 <div>
+                                    <a class="prev" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-left text-secondary"></i></a>
+                                    <a class="next" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-right text-secondary"></i></a>
+                                 </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-6 col-xl-4">
+                                    <div class="mySlides">
+                                        <img src="images/1.jpg" class="w-100 rounded-medium">
+                                        <div class="pt-3 px-1">
+                                          <div class="d-flex justify-content-between">
+                                            <h6>CS-Go</h6>
+                                            <span><i class="fa-solid fa-star text-warning"></i> 4.88</span>
+                                         </div>
+                                         <div class="d-flex justify-content-between">
+                                            <p class="fw-lighter text-secondary">294K Downloads</p>
+                                            <span><i class="fa-solid fa-download text-site"></i> 2.3M</span>
+                                         </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-sm-6 col-xl-4 d-none d-sm-block">
+                                    <div class="mySlides ">
+                                        <img src="images/2.jpg" class="w-100 rounded-medium" >
+                                        <div class="pt-3 px-1">
+                                          <div class="d-flex justify-content-between">
+                                            <h6>Gamezer</h6>
+                                            <span><i class="fa-solid fa-star text-warning"></i> 4.88</span>
+                                         </div>
+                                         <div class="d-flex justify-content-between">
+                                            <p class="fw-lighter text-secondary">294K Downloads</p>
+                                            <span><i class="fa-solid fa-download text-site"></i> 2.3M</span>
+                                         </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-sm-6 col-xl-4 d-none d-xl-block">
+                                    <div class="mySlides ">
+                                        <img src="images/3.jpg" class="w-100 rounded-medium">
+                                        <div class="pt-3 px-1">
+                                          <div class="d-flex justify-content-between">
+                                            <h6>Island Rusty</h6>
+                                            <span><i class="fa-solid fa-star text-warning"></i> 4.88</span>
+                                         </div>
+                                         <div class="d-flex justify-content-between">
+                                            <p class="fw-lighter text-secondary">294K Downloads</p>
+                                            <span><i class="fa-solid fa-download text-site"></i> 2.3M</span>
+                                         </div>
+                                        </div>
+                                      </div
+                                </div>
+                            </div>                          
+                         </div>
+                       </section>
+                </div>
+                <div class="col-lg-4">
+                    <section class="Top-Downloaded bg-popular rounded-medium py-4 px-2 position-relative mb-3">
+                        <div class="container-lg">
+                          <h4 class=" fw-bolder ps-2 mb-4"><span class="text-capitalize text-decoration-underline">top</span><span class="text-site text-capitalize"> downloaded</span></h4>
+                          <div class="d-flex justify-content-between align-items-center py-xl-4 py-3 border-game ">
+                            <div class="d-flex align-items-center  ">
+                                <img src="images/game-01.jpg" alt="game1" class="rounded-medium">
+                                <div class=" ms-3">
+                                    <h6 class="mb-0">Fortnite</h6>
+                                    <p class="fw-lighter text-secondary mb-1">Sandbox</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <span class="me-3"><i class="fa-solid fa-star text-warning mb-0"></i> 4.88</span>
+                                        <span><i class="fa-solid fa-download text-site mb-0"></i> 2.3M</span>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-download rounded-circle p-3 mt-3  text-site bg-fbody "></i>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center py-xl-4 py-3 border-game">
+                            <div class="d-flex align-items-center  ">
+                                <img src="images/game-02.jpg" alt="game2" class="rounded-medium">
+                                <div class="ms-3">
+                                    <h6 class="mb-0">CS-GO</h6>
+                                    <p class="fw-lighter text-secondary mb-1">Legendary</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <span class="me-3"><i class="fa-solid fa-star text-warning mb-0"></i> 4.88</span>
+                                        <span><i class="fa-solid fa-download text-site mb-0"></i> 2.3M</span>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-download rounded-circle p-3 mt-3  text-site bg-fbody "></i>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center py-xl-4 py-3 border-game">
+                            <div class="d-flex align-items-center  ">
+                                <img src="images/game-01.jpg" alt="game1" class="rounded-medium">
+                                <div class="ms-3">
+                                    <h6 class="mb-0">pubG</h6>
+                                    <p class="fw-lighter text-secondary mb-1">Battle Royale</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <span class="me-3"><i class="fa-solid fa-star text-warning mb-0"></i> 4.88</span>
+                                        <span><i class="fa-solid fa-download text-site mb-0"></i> 2.3M</span>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-download rounded-circle p-3 mt-3  text-site bg-fbody "></i>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center text-site pt-5 pb-3 pt-xl-5 pb-xl-4">
+                            <a href="profile.html" class="text-reset text-decoration-none"> View All Games</a>
+                          </div>
+                          </div>
+                       </section>
+            </div>
+            </div>
+         </div>
+        </div>
+        
+        <footer class="text-white text-center fw-lighter p-4 mb-0">
+          <p >Copyright © 2036 Cyborg Gaming Company. All rights reserved.</p>
+          <p>Design: TemplateMo</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
