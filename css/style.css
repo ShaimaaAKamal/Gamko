@@ -100,6 +100,28 @@
     color:var(--siteColor) !important;
 }
 
+/* popular live streams */
+
+.liveBadge{
+    right:5%;
+    top:1rem;
+}
+
+.streamBadge{
+    width: 100%;
+    transform: translateX(-50%);
+    left:50%;
+    bottom:1rem;
+} 
+
+.cardInfo{
+    transition: all 1s;
+}
+
+.streamInfo:hover .cardInfo{
+    opacity:1 !important;
+}
+
 @media screen and (min-width:576px) {
     .h6size{
         font-size:1rem
