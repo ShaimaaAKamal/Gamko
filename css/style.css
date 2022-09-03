@@ -1,5 +1,6 @@
 :root{
     --siteColor:#E75E8C;
+    --borderColor:#27292A;
 }
 
 .bg-full-body{
@@ -9,8 +10,18 @@
 .border-fbody{
     border-right:none;
 }
+.border-btn{
+    border:1px solid #666666;
+}
+
+.border-game {
+    border-bottom:.5px solid  var(--borderColor);
+}
+.border-dowunload {
+    border:1px solid  var(--siteColor);
+}
 .bg-fbody{
-    background-color: #27292A;
+    background-color: var(--borderColor);
 }
 .text-fbody{
     color:#757575;
@@ -69,6 +80,19 @@
 
 /* popular Section */
 
+.btn-download:hover,.btn-library:hover{
+    background-color: #fff;
+    color:var(--siteColor) !important;
+    border-color: #fff;
+}
+
+
+
+@media screen and (min-width:576px) {
+    .h6size{
+        font-size:1rem
+    }
+}
 @media screen and (min-width:992px){
 
     .border-fbody{
