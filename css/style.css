@@ -20,6 +20,10 @@
     font-size:0.8rem;
 }
 
+.fs-8{
+    font-size:3rem;
+}
+
 .text-site{
     color:var(--siteColor);
 }
@@ -31,20 +35,49 @@
 .navbar-nav li:hover a{
     color:var(--siteColor);  
 }
-
+.btn-site{
+    background-color: var(--siteColor);
+}
 .bg-w{
     background-color: #fff !important;
+}
+
+.rounded-medium{
+    border-radius: 30px;
+}
+
+.parent{
+    padding-top: 18vh;
+}
+
+#Home{
+    height:50vh;
+    background-image: url('../images/banner-bg.jpg');
+    background-size: cover;
+}
+
+.home-caption{
+    width:75%;
 }
 
 
 
 
+
 @media screen and (min-width:992px){
+
     .border-fbody{
         border-right:1px solid #27292A
     } 
     .bg-w{
         background-color: transparent !important;
+    }
+    .parent{
+        padding-top: 12vh;
+    }
+
+    .home-caption{
+        width:50%;
     }
     
 }
