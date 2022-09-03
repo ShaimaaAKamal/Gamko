@@ -34,7 +34,6 @@ function showSlides(n) {
      if(n==1){
     if(x !=3)
 {     slides[i].children[0].setAttribute('src',`images/${parseInt(n)+parseInt(x)}.jpg`)
-      console.log(slides[i].children[1])
       slides[i].children[1].innerHTML=data[parseInt(x)]
 }   else
     { slides[i].children[0].setAttribute('src',`images/1.jpg`);

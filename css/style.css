@@ -80,7 +80,7 @@
 
 /* popular Section */
 
-.btn-download:hover,.btn-library:hover{
+.btn-download:hover,.btn-library:hover,.goProfile:hover{
     background-color: #fff;
     color:var(--siteColor) !important;
     border-color: #fff;
@@ -95,6 +95,10 @@
   }
   
 /* Browse Page */
+
+.hoverLink:hover{
+    color:var(--siteColor) !important;
+}
 
 @media screen and (min-width:576px) {
     .h6size{
