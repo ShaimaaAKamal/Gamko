@@ -144,6 +144,12 @@
     bottom:10px;
 }
 
+.clipPlay{
+    left:50%;
+    transform:translateX(-50%);
+    top:40%;
+}
+
 @media screen and (min-width:576px) {
     .h6size{
         font-size:1rem
