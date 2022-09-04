@@ -132,6 +132,15 @@
     height:40vh;
 }
 
+.streamBadgeHover{
+    bottom:-50px;
+    transition: all 1s;
+}
+
+.parentLiveStream:hover .streamBadgeHover{
+    bottom:10px;
+}
+
 @media screen and (min-width:576px) {
     .h6size{
         font-size:1rem

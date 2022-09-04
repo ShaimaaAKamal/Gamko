@@ -51,7 +51,7 @@
                     <section class="Popular bg-popular rounded-medium p-4 position-relative mb-5">
                         <div class="container-lg">
                             <div class="d-flex justify-content-between align-items-center">
-                                <h4 class=" fw-bolder ps-2"><span class="text-capitalize text-decoration-underline">featured</span><span class="text-site text-capitalize"> games</span></h4>
+                                <h4 class=" fw-bolder ps-2"><span class="text-capitalize text-decoration-underline">live</span><span class="text-site text-capitalize"> streams</span></h4>
                                  <div>
                                     <a class="prev" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-left text-secondary"></i></a>
                                     <a class="next" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-right text-secondary"></i></a>
@@ -60,9 +60,12 @@
                             <div class="row mt-4">
                                 <div class="col-sm-6 col-xl-4">
                                     <div class="mySlides">
-                                      <div>
-                                        <img src="images/1.jpg" class="w-100 rounded-medium">
-                                      </div>
+                                        <div class="position-relative parentLiveStream overflow-hidden">
+                                            <img src="images/1.jpg" class="w-100 rounded-medium">
+                                            <div class="text-center streamBadgeHover position-absolute w-100">
+                                                <button class="btn text-site btn-dark rounded-pill fs-7">2.4K Streaming</button>
+                                            </div>
+                                        </div>
                                         <div class="pt-3 px-1">
                                           <div class="d-flex justify-content-between">
                                             <h6>CS-Go</h6>
@@ -77,9 +80,12 @@
                                 </div>
                                 <div class="col-sm-6 col-xl-4 d-none d-sm-block">
                                     <div class="mySlides ">
-                                      <div>
-                                        <img src="images/2.jpg" class="w-100 rounded-medium" >
-                                      </div>
+                                        <div class="position-relative parentLiveStream overflow-hidden">
+                                            <img src="images/2.jpg" class="w-100 rounded-medium" >
+                                            <div class="text-center streamBadgeHover position-absolute w-100">
+                                                <button class="btn text-site btn-dark rounded-pill fs-7">2.4K Streaming</button>
+                                            </div>
+                                        </div>
                                         <div class="pt-3 px-1">
                                           <div class="d-flex justify-content-between">
                                             <h6>Gamezer</h6>
@@ -94,9 +100,12 @@
                                 </div>
                                 <div class="col-sm-6 col-xl-4 d-none d-xl-block">
                                     <div class="mySlides ">
-                                      <div>
-                                        <img src="images/3.jpg" class="w-100 rounded-medium">
-                                      </div>
+                                        <div class="position-relative parentLiveStream overflow-hidden">
+                                            <img src="images/3.jpg" class="w-100 rounded-medium">
+                                            <div class="text-center streamBadgeHover position-absolute w-100">
+                                                <button class="btn text-site btn-dark rounded-pill fs-7">2.4K Streaming</button>
+                                            </div>
+                                        </div>
                                         <div class="pt-3 px-1">
                                           <div class="d-flex justify-content-between">
                                             <h6>Island Rusty</h6>
@@ -114,93 +123,66 @@
                        </section>
                 </div>
                 <div class="col-lg-4">
-                    <section class="Top-Downloaded bg-popular rounded-medium py-4 px-2 position-relative mb-3">
-                        <div class="container-lg">
-                          <h4 class=" fw-bolder ps-2 mb-4"><span class="text-capitalize text-decoration-underline">top</span><span class="text-site text-capitalize"> downloaded</span></h4>
-                          <div class="d-flex justify-content-between align-items-center py-xl-4 py-3 border-game ">
-                            <div class="d-flex align-items-center  ">
-                                <img src="images/game-01.jpg" alt="game1" class="rounded-medium">
-                                <div class=" ms-3">
-                                    <h6 class="mb-0">Fortnite</h6>
-                                    <p class="fw-lighter text-secondary mb-1">Sandbox</p>
-                                    <div class="d-flex justify-content-between ">
-                                        <span class="me-3"><i class="fa-solid fa-star text-warning mb-0"></i> 4.88</span>
-                                        <span><i class="fa-solid fa-download text-site mb-0"></i> 2.3M</span>
-                                    </div>
-                                 
+                    <section class="Top-streamers bg-popular rounded-medium py-4 px-2 position-relative mb-3">
+                        <div class="container-lg pb-lg-3 pb-xl-2 pb-xxl-0">
+                          <h4 class=" fw-bolder ps-2 mb-4"><span class="text-capitalize text-decoration-underline">top</span><span class="text-site text-capitalize"> streamers</span></h4>
+                          <div class="d-flex justify-content-between align-items-center py-lg-4 py-xl-3 py-xxl-4 py-3 border-game ">
+                            <div class="d-flex align-items-center">
+                                <span class="me-3">01</span>
+                                <div class="me-3">
+                                    <img src="images/avatar-01.jpg" alt="avatar 1" class="rounded-circle w-100">
                                 </div>
+                                <span class="text-site fs-7"><i class="fa-solid fa-check p-1 btn-site rounded-circle me-2 text-white"></i>LahutaM</span>
                             </div>
-                            <i class="fa-solid fa-download rounded-circle p-3 mt-3  text-site bg-fbody "></i>
+                            <button class="btn btn-site text-white rounded-pill fw-light px-4 py-2 fs-7 btn-download my-1">follow</button>
                           </div>
-                          <div class="d-flex justify-content-between align-items-center py-xl-4 py-3 border-game">
-                            <div class="d-flex align-items-center  ">
-                                <img src="images/game-02.jpg" alt="game2" class="rounded-medium">
-                                <div class="ms-3">
-                                    <h6 class="mb-0">CS-GO</h6>
-                                    <p class="fw-lighter text-secondary mb-1">Legendary</p>
-                                    <div class="d-flex justify-content-between ">
-                                        <span class="me-3"><i class="fa-solid fa-star text-warning mb-0"></i> 4.88</span>
-                                        <span><i class="fa-solid fa-download text-site mb-0"></i> 2.3M</span>
-                                    </div>
-                                 
+                          <div class="d-flex justify-content-between align-items-center py-lg-4 py-xl-3  py-xxl-4 py-3 border-game ">
+                            <div class="d-flex align-items-center">
+                                <span class="me-3">02</span>
+                                <div class="me-3">
+                                    <img src="images/avatar-02.jpg" alt="avatar 2" class="rounded-circle w-100">
                                 </div>
+                                <span class="text-site fs-7"><i class="fa-solid fa-check p-1 btn-site rounded-circle me-2 text-white"></i>Kengan</span>
                             </div>
-                            <i class="fa-solid fa-download rounded-circle p-3 mt-3  text-site bg-fbody "></i>
+                            <button class="btn btn-site text-white rounded-pill fw-light px-4 py-2 fs-7 btn-download my-1">follow</button>
                           </div>
-                          <div class="d-flex justify-content-between align-items-center py-xl-4 py-3 border-game">
-                            <div class="d-flex align-items-center  ">
-                                <img src="images/game-01.jpg" alt="game1" class="rounded-medium">
-                                <div class="ms-3">
-                                    <h6 class="mb-0">pubG</h6>
-                                    <p class="fw-lighter text-secondary mb-1">Battle Royale</p>
-                                    <div class="d-flex justify-content-between ">
-                                        <span class="me-3"><i class="fa-solid fa-star text-warning mb-0"></i> 4.88</span>
-                                        <span><i class="fa-solid fa-download text-site mb-0"></i> 2.3M</span>
-                                    </div>
-                                 
+                          <div class="d-flex justify-content-between align-items-center py-lg-4 py-xl-3 py-xxl-4 py-3 border-game ">
+                            <div class="d-flex align-items-center">
+                                <span class="me-3">03</span>
+                                <div class="me-3">
+                                    <img src="images/avatar-03.jpg" alt="avatar 3" class="rounded-circle w-100">
                                 </div>
+                                <span class="text-site fs-7"><i class="fa-solid fa-check p-1 btn-site rounded-circle me-2 text-white"></i>Areluwa</span>
                             </div>
-                            <i class="fa-solid fa-download rounded-circle p-3 mt-3  text-site bg-fbody "></i>
+                            <button class="btn btn-site text-white rounded-pill fw-light px-4 py-2 fs-7 btn-download my-1">follow</button>
                           </div>
-                          <div class="d-flex align-items-center justify-content-center text-site pt-5 pb-3 pt-xl-5 pb-xl-4">
-                            <a href="profile.html" class="text-reset text-decoration-none"> View All Games</a>
+                          <div class="d-flex justify-content-between align-items-center py-lg-4 py-xl-3 py-xxl-4 py-3 border-game ">
+                            <div class="d-flex align-items-center">
+                                <span class="me-3">04</span>
+                                <div class="me-3">
+                                    <img src="images/avatar-04.jpg" alt="avatar 4" class="rounded-circle w-100">
+                                </div>
+                                <span class="text-site fs-7"><i class="fa-solid fa-check p-1 btn-site rounded-circle me-2 text-white"></i> Omeg</span>
+                            </div>
+                            <button class="btn btn-site text-white rounded-pill fw-light px-4 py-2 fs-7 btn-download my-1">follow</button>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center py-lg-4 py-xl-3 py-xxl-4 py-3 border-game ">
+                            <div class="d-flex align-items-center">
+                                <span class="me-3">05</span>
+                                <div class="me-3">
+                                    <img src="images/avatar-01.jpg" alt="avatar 1" class="rounded-circle w-100">
+                                </div>
+                                <span class="text-site fs-7"><i class="fa-solid fa-check p-1 btn-site rounded-circle me-2 text-white"></i>GangTeam</span>
+                            </div>
+                            <button class="btn btn-site text-white rounded-pill fw-light px-4 py-2 fs-7 btn-download my-1">follow</button>
                           </div>
                           </div>
                        </section>
             </div>
             </div>
             
-            <section class="streams p-4 d-flex align-items-center flex-column">
-              <h2 class=" fw-bolder ps-2"><span class="text-capitalize text-decoration-underline">how to start your</span><span class="text-site text-capitalize"> live streams</span></h2>
-              <div class="row my-lg-5 my-sm-4 my-4 gy-4">
-                <div class="col-lg-4 ">
-                 <div class="border border-1 border-secondary rounded-medium p-4"> 
-                  <img src="images/service-01.jpg" alt="service 1" class="rounded-circle">
-                  <h5 class="py-3 mb-0">Go To Your Profile</h5>
-                  <p class="text-secondary lh-base ">Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p></div>
-                </div>
-                <div class="col-lg-4 ">
-                <div class="border border-1 border-secondary rounded-medium px-4 py-4 py-xxl-4 pt-lg-4  pb-lg-5">
-                  <img src="images/service-02.jpg" alt="service 2" class="rounded-circle">
-                  <h5 class="py-3 mb-0">Live Stream Button</h5>
-                  <p class="text-secondary lh-base ">If you wish to support us, you can make a <a href="https://www.paypal.com/paypalme/templatemo" class="text-light text-decoration-none hoverLink">
-                    small contribution via PayPal</a> to info [at] templatemo.com</p>
-                </div>
-                </div>
-                <div class="col-lg-4 ">
-                  <div class="border border-1 border-secondary rounded-medium p-4">
-                    <img src="images/service-03.jpg" alt="service 3" class="rounded-circle">
-                    <h5 class="py-3 mb-0">You Are Live</h5>
-                    <p class="text-secondary lh-base ">You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website</p>
-                  </div>
-                  </div>
-              </div>
-              <div>
-               <a href="profile.html" class="btn btn-site px-4 rounded-pill text-white fw-light goProfile">Go to Profile</a>
-              </div>
-            </section>
 
-            <section class="popular-streams bg-popular rounded-medium py-4 px-sm-2 px-md-1 position-relative mt-3">
+            <!-- <section class="popular-streams bg-popular rounded-medium py-4 px-sm-2 px-md-1 position-relative mt-3">
               <div class="container-lg">
                 <h3 class=" fw-bolder ps-2 mb-4"><span class="text-capitalize text-decoration-underline">most popular</span><span class="text-site text-capitalize"> live streams</span></h3>
                 <div class="row py-3 mx-sm-1 gy-3">
@@ -301,7 +283,7 @@
                
               </div>
               <a href="profile.html" class="btn btn-site text-white position-absolute rounded-pill  px-1 px-sm-4 fw-light start-50 popularButton btn-library">Discover All Streams</a>
-            </section>
+            </section> -->
          </div>
         </div>
         
