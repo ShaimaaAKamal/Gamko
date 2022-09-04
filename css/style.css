@@ -3,6 +3,9 @@
     --borderColor:#27292A;
 }
 
+nav{
+    z-index:500;
+}
 .bg-full-body{
     background-color:#1F2122; 
 }
@@ -13,6 +16,12 @@
 .border-btn{
     border:.5px solid #666666;
 }
+
+
+
+
+
+
 
 .border-game {
     border-bottom:.5px solid  var(--borderColor);
@@ -51,6 +60,15 @@
 .navbar-nav li:hover a{
     color:var(--siteColor);  
 }
+
+.bg-nav-fbody{
+    background-color: var(--siteColor);
+}
+
+.bg-nav-fbody .text-fbody,
+.navbar-nav  .bg-nav-fbody .active{
+    color:#fff !important;
+}
 .btn-site{
     background-color: var(--siteColor);
 }
@@ -71,7 +89,7 @@
 }
 
 #Home{
-    height:50vh;
+    height:65vh;
     background-image: url('../images/banner-bg.jpg');
     background-size: cover;
 }
@@ -157,6 +175,18 @@
 }
 @media screen and (min-width:992px){
 
+    .bg-nav-fbody {
+        background-color: var(--borderColor); 
+    }
+    .bg-nav-fbody .text-fbody{
+        color:#757575 !important;
+
+    }
+
+    .navbar-nav  .bg-nav-fbody .active{
+        color:var(--siteColor) !important;
+    }
+
     .border-fbody{
         border-right:1px solid #27292A
     } 
@@ -174,5 +204,13 @@
     .videoPlay{
         height:100%;
     }
+
+  
     
+}
+
+@media screen and (min-width:1200px){
+    #Home{
+        height: 50vh;
+    }
 }
