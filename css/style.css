@@ -11,11 +11,14 @@
     border-right:none;
 }
 .border-btn{
-    border:1px solid #666666;
+    border:.5px solid #666666;
 }
 
 .border-game {
     border-bottom:.5px solid  var(--borderColor);
+}
+.border-profile {
+    border-bottom:1px solid  #666;
 }
 .border-dowunload {
     border:1px solid  var(--siteColor);
